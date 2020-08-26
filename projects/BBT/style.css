@@ -1,0 +1,109 @@
+body{
+    overflow-x: hidden;
+}
+
+a{
+    text-decoration: none;
+}
+
+.div_main {
+    height: 3500px;
+    width: 1400px;
+}
+
+.div_nav ul{
+    list-style: none;
+    display: inline-flex;
+    background-color: black;
+    width: 100%;
+    height: 100px;
+    position: relative;
+    bottom: 120px;
+}
+
+.div_nav li{
+    color: white;
+    font-size: 25px;
+    font-family: 'Recursive', sans-serif;
+    margin: 25px 10px;
+}
+
+.div_nav img{
+    height: 100px;
+    width: 150px;
+    position: relative;
+    left: 1200px;
+    z-index: 2;
+}
+
+.div_banner h1{
+    font-family: 'Kanit', sans-serif;
+    color: white;
+    font-size: 40px;
+    position: relative;
+    left: 570px;
+    z-index: 2;
+}
+
+.div_banner img {
+    height: 700px;
+    width: 1350px;
+    position: relative;
+    bottom: 250px;
+    z-index: 1;
+}
+
+.div_start_quote {
+    position: relative;
+    bottom: 200px;
+}
+
+.div_start_quote h1 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.div_shop {
+    background-color: #e1eaea;
+    position: relative;
+    bottom: 180px;
+}
+
+.div_shop h1{
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 20px;
+}
+
+.div_shop_beasts img{
+    height: 400px;
+    width: 800px;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+
+.div_shop_beasts figcaption{
+    font-size: 20px;
+    font-family: 'Red Rose', cursive;
+    padding-bottom: 30px;
+}
+
+.div_footer {
+    background-color: black;
+    color: white;
+    position: relative;
+    bottom: 190px;
+    height: 300px;
+}
+
+.div_footer center {
+    position: relative;
+    top: 70px;
+}
+
+.div_footer address {
+    font-size: 30px;
+}
+
+.copyrights {
+    font-family: 'Antic Slab', serif;
+    padding-top: 40px;
+}
